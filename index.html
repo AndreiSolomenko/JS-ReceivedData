@@ -7,17 +7,23 @@
 </head>
 <body class="m-0 bg-dark">
     <div class="container bg-white p-4">
+        <h3>Exchange Rates</h3>
+        <input type="text" placeholder="Search by Name" class="form-control my-3" id="search">
+
+        <h4>Change Date</h4>
+        <input type="date" class="mb-3" id="searchDate" value="2023-01-17">
+
         <table class="table">
             <thead>
                 <tr>
                     <th>R030</th>
-                    <th>Txt</th>
+                    <th>Name</th>
                     <th>Rate</th>
                     <th>CC</th>
                     <th>Exchange date</th>
                 </tr>
             </thead>
-            <tbody id="currencys-tbody">
+            <tbody id="currencies-tbody">
                 <tr><td class="text-center" colspan="5">Not Found</td></tr>
             </tbody>
         </table>
